@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 14px;
+  }
+}
