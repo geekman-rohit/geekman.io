@@ -1,3 +1,7 @@
+[![Deploy to Amazon ECS](https://github.com/geekman-rohit/geekman.io/actions/workflows/aws.yml/badge.svg)](https://github.com/geekman-rohit/geekman.io/actions/workflows/aws.yml)
+
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
