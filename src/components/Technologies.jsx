@@ -24,16 +24,16 @@ export function Technologies(props) {
         <SectionContainer>
           <Paragraph>
           These are technologies I use in my daily work; I follow their latest trends and best practices closely:
-          <br /><strong> JavaScript, TypeScript, html5, css3, reactjs, redux, angular, 
+          <br /><strong> JavaScript, TypeScript, html5, css3, reactjs, redux,
           <br /> Progressive Web Apps, Web Components 
           <br /> git, docker, jenkins</strong>
           </Paragraph>
         </SectionContainer>
-        <SectionContainer>
+        <SectionContainer> 
           <H3>Dabbles In</H3>
           <Paragraph>
           These are technologies I use sometimes, and have hands on experience with:
-          <br /><strong> nodejs, java, jenkins, aws, mysql, algolia search</strong>
+          <br /><strong> angular, nodejs, java, jenkins, aws, mysql, algolia search</strong>
           </Paragraph>
         </SectionContainer>
 
