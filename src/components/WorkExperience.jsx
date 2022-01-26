@@ -26,11 +26,34 @@ export function WorkExperience(props) {
     <Container>
       <PrintPage>
       <Heading>Work Experience</Heading>
-      <PeriodEntry time="August 2018 to present day">
+
+      <PeriodEntry time="October 2021 to present day">
+        <H3>Flipkart</H3>
+        <Subtext>UI Engineer III</Subtext>
+        <Paragraph>
+          <strong>Building and Improving the Post Order Customer Experience:</strong> I help build a seamless post order experience for Flipkart's customers.
+          My Responsibilities include:
+          <List>
+            <li>
+                Building UI components and pages that are fully driven and controlled by data, allowing quick experimentation and minor modifications without future developer efforts.
+            </li>
+            <li>
+              Working closely with Product teams and Designers to define and build cross platform experiences
+            </li>
+            <li>
+                Start and Drive initiatives to improve Code Quality and Test Coverage
+            </li>
+
+          </List>
+        </Paragraph>
+      </PeriodEntry>
+      
+
+      <PeriodEntry time="August 2018 to October 2021">
         <H3>Thoughtworks</H3>
         <Subtext>UI Developer - Senior Consultant.</Subtext>
         <Paragraph>
-          <strong>Luxury ecommerce project for a world famous fashion brand:</strong> For the last 2.5 years I have been helping define and build a new shopping experience for a client (a world renonwned ultra luxury fashion brand). The project I worked on has world wide visibility and millions of daily visitors. Some of my responsibilities include:
+          <strong>Luxury ecommerce project for a world famous fashion brand:</strong> Between January 2019 to October 2021 I helped define and build a new shopping experience for a world renonwned ultra luxury fashion brand. The project I worked on has world wide visibility and millions of daily visitors. Some of my responsibilities included:
           <List>
             <li>
               Helping define the plan to renovate an existing monolith by breaking it into Microfrontends.
@@ -54,19 +77,11 @@ export function WorkExperience(props) {
         </Paragraph>
         <Paragraph>
           <strong>Data Driven Client Onboarding Portal for a international bank: </strong> 
-          <span> Between August 2018 to January 2019 I worked on customizable onboarding platform. Some of my responsibilities included:</span>
-          <List>
-            <li>
-              Building end user forms that are customizable from an admin portal using <strong>angular</strong>
-            </li>
-            <li>
-              Leading the team in terms of styling of the application, reviewing frontend pull requests.
-            </li>
-          </List>
+          <span> Between August 2018 to January 2019 I helped build customizable onboarding platform, which was data driven, configurable and customizable.</span>
         </Paragraph>
       </PeriodEntry>
       
-      
+
       <PeriodEntry time="October 2016 to July 2018">
         <H3>Self Employed</H3>
         <Subtext>Freelancer</Subtext>
@@ -77,32 +92,24 @@ export function WorkExperience(props) {
 
       </PeriodEntry>
 
+        <PageBreak />
 
-      <PeriodEntry time="August 2015 to October 2016">
+        <PrintPush />
+    
+      <PeriodEntry time="2013 to October 2016">
         <H3>HRNeeti Pvt. Ltd</H3>
-        <Subtext>Senior Software Engineer</Subtext>
+        <Subtext>Senior Software Engineer (2015-2016)</Subtext>
         <Paragraph>
         I helped lead the development of the product on the technology side. Some Technologies I worked with: <strong>Angular</strong>, <strong>PHP</strong>, <strong>jQuery</strong>
         </Paragraph>
-      </PeriodEntry>
-      </PrintPage>
-      <PageBreak />
-      <PrintPush />
-      <PeriodEntry time="May to Augst 2015">
-        <H3>Google Summer of Code</H3>
-        <Subtext>Oper Source Contributor for jQuery Foundation</Subtext>
-        <Paragraph>
-        I worked with the <strong>jQuery Foundation</strong> in development of css-chassis, a css framework for javascript ui libraries. (https://jquery.org)
-        </Paragraph>
-      </PeriodEntry>
-      
-      <PeriodEntry time="2013 to August 2015">
-        <H3>HRNeeti Pvt. Ltd</H3>
-        <Subtext>Software Engineer (Part time)</Subtext>
+
+
+        <Subtext>Software Engineer <em><strong>(part-time)</strong></em> (2013-2015)</Subtext>
         <Paragraph>
         Developed a Human Resource Management System (hrneeti.com) for HR Neeti (Pune, India), between June 2013-August 2015, while finishing college.
         </Paragraph>
       </PeriodEntry>
+      </PrintPage>
     </Container>
   ); 
 }

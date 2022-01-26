@@ -12,7 +12,7 @@ export function Education(props) {
   return (
     <Container>
       <Heading>Education</Heading>
-      <PeriodEntry time="June 2015">
+      <PeriodEntry time="2011 to June 2015">
         <H3>Bachelor of Technology</H3>
         <Subtext>Shri Guru Gobind Sighji Institute of Engineering and Technology, Nanded</Subtext>
       </PeriodEntry>
